@@ -147,8 +147,7 @@ begin
 end$$
 delimiter ;
 
--- Gọi thủ tục: sinh viên điểm cao nhất môn Database Systems (C00001)
-CALL GetTopScoreStudent('C00001');
+call GetTopScoreStudent('C00001');
 
 
 
